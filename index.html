@@ -5,41 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Portfólio</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      background-color: #f0f0f0;
+      background-color: #f9f9f9;
       color: #333;
+      line-height: 1.6;
     }
     header {
-      background-color: #24292e;
+      background-color: #1f2937;
       color: white;
-      padding: 2rem;
+      padding: 3rem 1rem;
       text-align: center;
     }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
     section {
-      padding: 2rem;
-      max-width: 900px;
+      padding: 2rem 1rem;
+      max-width: 960px;
       margin: auto;
     }
     h2 {
-      color: #24292e;
+      color: #1f2937;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
     }
     .projeto {
       background: white;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+      transition: transform 0.2s;
+    }
+    .projeto:hover {
+      transform: translateY(-4px);
+    }
+    ul {
+      padding-left: 1.2rem;
     }
     footer {
       text-align: center;
-      padding: 1rem;
-      background-color: #24292e;
+      padding: 1.5rem 1rem;
+      background-color: #1f2937;
       color: white;
+      margin-top: 2rem;
     }
     a {
-      color: #0366d6;
+      color: #3b82f6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -51,7 +78,7 @@
 
   <section>
     <h2>Sobre Mim</h2>
-    <p>Sou estudante de Analise e desenvolvimento de sistemas com interesse em desenvolvimento web, análise de dados e testes de software. Gosto de aprender novas tecnologias e aplicar na prática.</p>
+    <p>Sou estudante de Analise e Desenvolvimento de Sistemas com interesse em desenvolvimento web, análise de dados e testes de software. Gosto de aprender novas tecnologias e aplicar na prática.</p>
   </section>
 
   <section>
@@ -60,7 +87,7 @@
       <h3>Projeto 1: To-do List</h3>
       <p>Aplicativo simples para gerenciamento de tarefas.</p>
       <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
-      <p><a href="https://github.com/uesleiddr/todo-list" target="_blank">Ver no GitHub</a></p>
+      <p><a href="https://github.com/uesleiddrt" target="_blank">Ver no GitHub</a></p>
     </div>
     <div class="projeto">
       <h3>Projeto 2: Análise de Dados - Netflix</h3>
@@ -83,12 +110,12 @@
   <section>
     <h2>Contato</h2>
     <p>Email: ddrsouza@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ueslei-souza" target="_blank">@ueslei-souza</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ueslei-souza/" target="_blank">ueslei-souza</a></p>
     <p>GitHub: <a href="https://github.com/uesleiddr" target="_blank">@uesleiddr</a></p>
   </section>
 
   <footer>
-    <p>Feito com ❤️ por Ueslei </p>
+    <p>Feito com ❤️ por Ueslei Souza</p>
   </footer>
 </body>
 </html>
